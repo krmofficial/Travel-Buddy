@@ -1,0 +1,47 @@
+/* Custom Class */
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar css*/
+.bg-teal{
+ background-color: teal;
+}
+
+/* Buttons */
+.btn-teal{
+    background-color: teal;
+}
+
+/* Carousel */
+.carousel .carousel-indicators li{
+    height: 5px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 0%;
+}
+
+.carousel-caption{
+    margin-bottom: 150px;
+}
+
+/* cards*/
+.text-teal{
+    color: teal;
+}
+
+/* Responsive*/
+@media (max-width: 576px){
+    .carousel-caption p{
+        display: none;
+    }
+
+    .card-responsive{
+        margin-top: 0%;
+    }
+    
+}
+
+
+
+
